@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-curso-typescript",
+  "version": "1.0.0",
+  "description": "Projeto realizado durante o curso de TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusAntonioo/ToDo-list-curso-TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusAntonioo/ToDo-list-curso-TypeScript/issues"
+  },
+  "homepage": "https://github.com/MatheusAntonioo/ToDo-list-curso-TypeScript#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
