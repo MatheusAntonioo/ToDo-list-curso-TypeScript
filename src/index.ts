@@ -1,7 +1,3 @@
-import { Type } from "typescript";
-
-
-
 (() => {
   enum NotificationPlatform{
     SMS = 'SMS',
