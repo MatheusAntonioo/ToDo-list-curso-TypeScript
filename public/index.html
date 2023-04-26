@@ -2,25 +2,29 @@
 <html lang="en">
   <head>
     <title>TSBeginner</title>
-    <style> * { font-family: sans-serif; } </style>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
       <button id="toggleMode">Toggle Mode</button>
-      <hr>
+      <hr />
       <form id="taskForm">
         <fieldset id="todoSet">
           <legend>Todo:</legend>
           <label for="todoDescription">Description:</label>
-          <input type="text" name="todoDescription" required="">
+          <input type="text" name="todoDescription" required />
           <button type="submit">Submit</button>
         </fieldset>
-        <fieldset id="reminderSet" style="display: none" disabled="">
+        <fieldset id="reminderSet" style="display: none" disabled>
           <legend>Reminder:</legend>
           <label for="reminderDescription">Description:</label>
-          <input type="text" name="reminderDescription" required="">
+          <input type="text" name="reminderDescription" required />
           <label for="scheduleDate">Date:</label>
-          <input type="date" name="scheduleDate" required="">
+          <input type="date" name="scheduleDate" required />
           <label for="notification">Notify by:</label>
           <select name="notification">
             <option value="SMS">SMS</option>
@@ -30,7 +34,7 @@
           <button type="submit">Submit</button>
         </fieldset>
       </form>
-      <br>
+      <br />
       <ul id="tasksList" style="white-space: pre-line; list-style: none"></ul>
     </div>
     <script src="./dist/index.js"></script>
